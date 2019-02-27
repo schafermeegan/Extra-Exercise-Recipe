@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DOM Exercise Recipes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    
+</head>
+<body>
+        <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Recipe Name</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1">
+                </div>
+               
+                
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Ingredients</label>
+                  
+                  <input type="text" class="form-control" id="exampleFormControlTextarea1">
+                </div>
+                <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Instructions</label>
+                       
+                        <input type="text" class="form-control" id="exampleFormControlTextarea1">
+                      </div>
+              </form>
+        
+              <form>
+                    <div class="button-submit">
+                        <button onclick="makeRecipe()">Submit</button>
+                        <span id="spanResult"></span>
+                    </div>
+                  </form>
+        <script src="main.js"></script>
+</body>
+</html>
